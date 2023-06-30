@@ -113,7 +113,10 @@ class Interface:
         operator_dropdown = ttk.OptionMenu(exp_frame, 
                                            operator_var, '', '>', '<', "=")
         operator_dropdown.pack(side=tk.LEFT, padx=5)
-        operator_var.set(saved_settings[2])
+        try:
+            operator_var.set(saved_settings[2])
+        except:
+            pass
 
         experience_entry = tk.Entry(exp_frame, width=13)
         experience_entry.pack(side=tk.LEFT, padx=5)
