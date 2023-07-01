@@ -12,9 +12,9 @@
 
 # ❓ What is Connexion?
 
-Connexion is a Python tool that serves as a free alternative to LinkedIn Sales Navigator. It enables users to search for and automatically connect with new LinkedIn profiles based on their preferences. Initially developed for Price Financial Management, a Financial Advising firm looking expand their online presence and find client leads via LinkedIn, Connexion can be used by any professional looking to expand their LinkedIn network efficiently. With Connexion, you can find relevant professionals easily, personalize connection requests, and establish valuable connections effortlessly.
+Connexion is a Python tool that serves as a free alternative to LinkedIn Sales Navigator. It enables users to search for and automatically connect with new LinkedIn profiles based on their preferences. Initially developed for Price Financial Management, a Financial Advising firm looking to expand their online presence and find client leads via LinkedIn, Connexion can be used by any professional looking to expand their LinkedIn network efficiently. With Connexion, you can find relevant professionals easily, personalize connection requests, and establish valuable connections effortlessly.
 
-# 🎥 Demo Videos
+# 🎥 Videos
 ### [Search Demo](youtube.com)
 ### [Connect Demo](youtube.com)
 
@@ -32,7 +32,6 @@ Allows the user to automate sending LinkedIn connection requests via Selenium. T
 ![Static Badge](https://img.shields.io/badge/SELENIUM-green?style=for-the-badge)
 ![Static Badge](https://img.shields.io/badge/JSON-orange?style=for-the-badge)
 ![Static Badge](https://img.shields.io/badge/CUSTOM%20SEARCH%20API-red?style=for-the-badge)
-
 
 # 🚫 Limitations
 
@@ -71,33 +70,40 @@ Steps:
    ```
 ### From Release
 1. TODO
+
 # 👥 Usage
 
 ### Profile Search Tool
 The Profile Search Tool can be accessed by starting the application and clicking the "Search for Profiles" button. This reveals a window containing filters and user preferences for the tool. Below is an overview of the different fields and their capabilities.
 - Locations (Comma Separated):
-  - Allows the user to search for profiles based in a list of locations. User should input a comma-seperated list of locations for best results. Must not be blank.
+  - Allows the user to search for profiles based on a list of locations. Users should input a comma-separated list of locations for best results. Must not be blank.
 - Positions (Comma Separated):
-   - Allows the user to search for profiles that work in a variety of positions. User should input a comma-seperated list of positions for best results. Must not be blank.
+   - Allows the user to search for profiles that work in a variety of positions. Users should input a comma-separated list of positions for best results. Must not be blank.
 - Experience Dropdown:
    - A dropdown list containing the options ">", "<", and "=", where ">" represents greater than, "<" represents less than, and "=" represents equal to. Works in conjunction with the experience entry field to allow the user to search for profiles with a range of experience levels.
 - Experience Entry Field:
   - Allows the user to enter their desired number of years of experience to allow them to search for profiles of all experience levels. Must be an integer between 0 and 30.
 - Output Location:
-   - The location of the output Excel file. Must end with .xlsx and represent a valid file path. Existing Excel files will be added to, not overrided. New Excel files can also be created as long as the path is valid.
+   - The location of the output Excel file. Must end with .xlsx and represent a valid file path. Existing Excel files will be added to, not overridden. New Excel files can also be created as long as the path is valid.
 - Custom Search API Key:
    - The user's Google Custom Search JSON API key. Must be a valid key. User's can create an API key [here](https://developers.google.com/custom-search/v1/overview).
 - Repeat Queries Box:
-   - When checked, previously searched terms will be searched again, it is recomended to check this if significant time has passed since last searching. When unchecked, previously searched terms are skipped.
+   - When checked, previously searched terms will be searched again, it is recommended to check this if significant time has passed since last searching. When unchecked, previously searched terms are skipped.
 
 ### Connection Automation Tool
-The Connection Automation Tool can by accessed by starting the application and clicking the "Automate Connections" button. This reveals a window containing filters and user preferences for the tool. Below is an overview of the different fields and their capabilities.
+The Connection Automation Tool can be accessed by starting the application and clicking the "Automate Connections" button. This reveals a window containing filters and user preferences for the tool. Below is an overview of the different fields and their capabilities.
 - LinkedIn Username:
+   - The email or phone number associated with the user's LinkedIn account. Must be a valid LinkedIn username. Users that do not have a LinkedIn account can sign up [here](https://www.linkedin.com/signup) 
 - LinkedIn Password:
+   - The password associated with the user's LinkedIn account. Paired with the username, the password must represent a valid LinkedIn login. 
 - Connection Message:
+   - The message that is sent to profiles when completing connection requests. User's can write [FIRST NAME] and [FULL NAME] to instruct the user to dynamically insert profile name information into the message. Must be less than 300 characters, but it is recommended to stay below 250 characters when using the dynamic name operators as longer LinkedIn profile names can cause issues.
 - Number of requests to send:
+   - The number of outgoing connection requests to send. Must be an integer between 1 and 50, but it is recommended to limit the number of requests to less than 30 per day.
 - Minimum connections count:
+   - The minimum number of connections a LinkedIn profile must have to be sent a connection request. This allows users to filter out inactive LinkedIn accounts if needed. Must be an integer between 0 and 500. 
 - Excel file path:
+   - The location of the Excel file containing the list of all of the LinkedIn URLs to attempt to connect with. URLs must be listed under a column named "Links". It is recommended to use the same excel path for the Search Tool output and the Connection Automation Tool input. Must represent a valid file path to a .xlsx file fitting the description above.
 
 # 🏎️ Performance
 
@@ -110,7 +116,7 @@ Retrieves `1000` new profiles in under `60` seconds.
 Completes `30` connection requests in under `18` minutes.
 
 # 🧪 Running Tests
-To run tests for Connexion, navigate to the `test.py` file in the project directory, which contains all of the application’s test cases. Files related to testing are stored in the `tests` folder. Some test cases, especially those relating to the linkedin connection bot, will fail due to the dynamic and unpredictable nature of LinkedIn profiles. Many of the test cases are resource intensive, ie. they use Google API requests or they heighten the risk of LinkedIn restrictions by repeatedly logging in the user. Therefore, it is advisable to only test a few methods at a time.
+To run tests for Connexion, navigate to the `test.py` file in the project directory, which contains all of the application’s test cases. Files related to testing are stored in the `tests` folder. Some test cases, especially those relating to the linkedin connection bot, will fail due to the dynamic and unpredictable nature of LinkedIn profiles. Many of the test cases are resource intensive, i.e. they use Google API requests or they heighten the risk of LinkedIn restrictions by repeatedly logging in the user. Therefore, it is advisable to only test a few methods at a time.
 
 # 👨‍💻 Contributors
 
