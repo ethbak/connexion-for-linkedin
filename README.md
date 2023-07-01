@@ -49,7 +49,21 @@ LinkedIn imposes a series of [limits](https://www.linkedin.com/help/linkedin/ans
 # 🛠️ Installation
 
 ### From Source Code
+Prerequisites:
+1. Install [Python / Anaconda](https://docs.anaconda.com/free/anaconda/install/index.html)
+2. Download [Google Chrome](https://www.google.com/chrome/)
 
+Steps:
+1. Download source code from the [repository]([https://docs.anaconda.com/free/anaconda/install/index.html](https://docs.anaconda.com/free/anaconda/install/index.html)).
+2. Open your computer's terminal and navigate to the application's folder.
+3. Run the following command to install the application's dependencies:
+   ```console
+   pip install pillow numpy pandas selenium requests
+   ```
+4. Start the application by running the following command:
+   ```console
+   python main.py
+   ```
 ### From Release
 
 # 👥 Usage
