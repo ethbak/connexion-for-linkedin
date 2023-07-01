@@ -10,9 +10,9 @@
 
 </div>
 
-# ❓ What is Connexion?
+# ❓ What is ConneXion?
 
-Connexion is a Python tool that serves as a free alternative to LinkedIn Sales Navigator. It enables users to search for and automatically connect with new LinkedIn profiles based on their preferences. Initially developed for Price Financial Management, a Financial Advising firm looking to expand their online presence and find client leads via LinkedIn, Connexion can be used by any professional looking to expand their LinkedIn network efficiently. With Connexion, you can find relevant professionals easily, personalize connection requests, and establish valuable connections effortlessly.
+ConneXion is a Python tool that serves as a free alternative to LinkedIn Sales Navigator. It enables users to search for and automatically connect with new LinkedIn profiles based on their preferences. Initially developed for Price Financial Management, a Financial Advising firm looking to expand their online presence and find client leads via LinkedIn, ConneXion can be used by any professional looking to expand their LinkedIn network efficiently. With ConneXion, you can find relevant professionals easily, personalize connection requests, and establish valuable connections effortlessly.
 
 # 🎥 Videos
 ### [Search Demo](youtube.com)
@@ -116,7 +116,7 @@ Retrieves `1000` new profiles in under `60` seconds.
 Completes `30` connection requests in under `18` minutes.
 
 # 🧪 Running Tests
-To run tests for Connexion, navigate to the `test.py` file in the project directory, which contains all of the application’s test cases. Files related to testing are stored in the `tests` folder. Some test cases, especially those relating to the linkedin connection bot, will fail due to the dynamic and unpredictable nature of LinkedIn profiles. Many of the test cases are resource intensive, i.e. they use Google API requests or they heighten the risk of LinkedIn restrictions by repeatedly logging in the user. Therefore, it is advisable to only test a few methods at a time.
+To run tests for ConneXion, navigate to the `test.py` file in the project directory, which contains all of the application’s test cases. Files related to testing are stored in the `tests` folder. Some test cases, especially those relating to the linkedin connection bot, will fail due to the dynamic and unpredictable nature of LinkedIn profiles. Many of the test cases are resource intensive, i.e. they use Google API requests or they heighten the risk of LinkedIn restrictions by repeatedly logging in the user. Therefore, it is advisable to only test a few methods at a time.
 
 # 👨‍💻 Contributors
 
