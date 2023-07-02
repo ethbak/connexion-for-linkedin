@@ -1,4 +1,4 @@
-![connexion_banner](https://github.com/ethbak/connexion-for-linkedin/assets/136761692/be87064a-181f-42f3-be6b-21a6c352df5a)
+![connexion_banner](https://github.com/ethbak/connexion-for-linkedin/assets/136761692/fc1a5a63-7cd1-4a0a-abf6-e117bc6d261e)
 
 <div align="center">
 
