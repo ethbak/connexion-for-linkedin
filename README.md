@@ -52,7 +52,6 @@ LinkedIn imposes a series of [limits](https://www.linkedin.com/help/linkedin/ans
 
 # 🛠️ Installation
 
-### From Source Code
 Prerequisites:
 1. Install [Python / Anaconda](https://docs.anaconda.com/free/anaconda/install/index.html).
 2. Download [Google Chrome](https://www.google.com/chrome/).
@@ -68,8 +67,6 @@ Steps:
    ```console
    python main.py
    ```
-### From Release
-1. TODO
 
 # 👥 Usage
 
