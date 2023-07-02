@@ -15,8 +15,8 @@
 ConneXion is a Python tool that serves as a free alternative to LinkedIn Sales Navigator. It enables users to search for and automatically connect with new LinkedIn profiles based on their preferences. Initially developed for Price Financial Management, a Financial Advising firm looking to expand their online presence and find client leads via LinkedIn, ConneXion can be used by any professional looking to expand their LinkedIn network efficiently. With ConneXion, you can find relevant professionals easily, personalize connection requests, and establish valuable connections effortlessly.
 
 # 🎥 Videos
-### [Search Demo](youtube.com)
-### [Connect Demo](youtube.com)
+### [Search Demo](https://youtu.be/bCwgYY1-Xi4)
+### [Connect Demo](https://youtu.be/rrk3BKkUm2E)
 
 # 💡 Features
 ### Profile Search Tool
