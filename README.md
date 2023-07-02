@@ -5,7 +5,7 @@
 ![Static Badge](https://img.shields.io/badge/Author-Ethan_Baker-green)
 ![Static Badge](https://img.shields.io/badge/GitHub-ethbak-orange?link=https%3A%2F%2Fgithub.com%2Fethbak)
 ![Static Badge](https://img.shields.io/badge/LinkedIn-ethbak-blue?link=https%3A%2F%2Flinkedin.com%2Fin%2Fethbak)
-![Static Badge](https://img.shields.io/badge/Website-ebaker.com-red?link=https%3A%2F%2Febaker.com)
+![Static Badge](https://img.shields.io/badge/Website-ebaker.us-red?link=http%3A%2F%2Febaker.us)
 ![Static Badge](https://img.shields.io/badge/License-Apache%202.0-purple?link=https%3A%2F%2Fwww.apache.org%2Flicenses%2FLICENSE-2.0)
 
 </div>
@@ -120,4 +120,4 @@ To run tests for ConneXion, navigate to the `test.py` file in the project direct
 
 # 👨‍💻 Contributors
 
-### [Ethan Baker](https://ebaker.com)
+### [Ethan Baker](http://ebaker.us)
