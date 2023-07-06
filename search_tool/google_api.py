@@ -62,26 +62,26 @@ class GoogleSearchAPI:
                     for years in list(range(int(preferences["exp_num"]), 31)):
                         s = ""
                         if years != 1: s = "s"
-                        queries.append('site:linkedin.com/in intitle:("'+pos+
-                                       '") AND ("'+loc+'") AND ("'+
+                        queries.append('site:linkedin.com/in intitle:("'+loc+
+                                       '") AND ("'+pos+'") AND ("'+
                                        str(years)+' year' + s + '")')
                 elif preferences["exp_op"] == "<":
                     for years in list(range(0, int(preferences["exp_num"]))):
                         s = ""
                         if years != 1: s = "s"
                         if years == 0:
-                            queries.append('site:linkedin.com/in intitle:("'+pos+
-                                       '") AND ("'+loc
+                            queries.append('site:linkedin.com/in intitle:("'+loc+
+                                       '") AND ("'+pos
                                        +'") -"year" -"years"')
                         else:
-                            queries.append('site:linkedin.com/in intitle:("'+pos+
-                                       '") AND ("'+loc+'") AND ("'+
+                            queries.append('site:linkedin.com/in intitle:("'+loc+
+                                       '") AND ("'+pos+'") AND ("'+
                                        str(years)+' year' + s + '")')
                 elif preferences["exp_op"] == "=":
                     s = ""
                     if preferences["exp_num"] != 1: s = "s"
-                    queries.append('site:linkedin.com/in intitle:("'+pos+
-                                    '") AND ("'+loc+'") AND ("'+
+                    queries.append('site:linkedin.com/in intitle:("'+loc+
+                                    '") AND ("'+pos+'") AND ("'+
                                         str(preferences["exp_num"])+' year")')
                     
         # Remove previously searched queries if necessary
