@@ -38,9 +38,6 @@ Allows the user to automate sending LinkedIn connection requests via Selenium. T
 ### Google API Requests
 Google limits its free Custom Search API requests to 100 per day, resulting in a maximum of 1000 new profile results. Extra requests can be purchased for $5 per 1000 [here](https://developers.google.com/custom-search/v1/overview).
 
-### LinkedIn TOS
-As per LinkedIn’s [Terms of Service](https://www.linkedin.com/help/linkedin/answer/a1340567/automated-activity-on-linkedin?lang=en#:~:text=In%20order%20to%20protect%20our,automate%20activity%20on%20LinkedIn's%20website), the use of third party automated tools is prohibited. Therefore, users of the Connection Automation Tool must operate at their own risk. If LinkedIn detects extended automated activity, they can temporarily deactivate or ban users’ accounts. The bot takes precautions the limit this possibility, including randomized delays between activity, but it still is important to use the tool responsibly. It is recommended to only send ~30 requests at a time, once per day. If an account is temporarily disabled, it is recommended to stop using the tool for an extended period of time to avoid a permanent ban.
-
 ### Login Captchas
 A common precaution against unnatural activity on LinkedIn are login captchas. LinkedIn may make users fill out a captcha after logging in if they detect too many logins in a short period of time. To combat this, the bot stops for a short period of time on the Captcha screen to allow the user to manually solve it. This allows the program to work efficiently until the next time it has to log the user in.
 
